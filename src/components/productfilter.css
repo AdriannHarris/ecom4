@@ -36,6 +36,11 @@
   .description{
     color: #fff;
   } 
-.row{
-    
+.card-container{
+display:grid;
+;
+}
+p{
+    display:grid;
+    align-items: center;
 }

@@ -29,7 +29,7 @@ export default function Productfilter(){
                         <div className='col-md-3'>
                             <div class="card" >
                                 <img src={val.image} class="card-img-top img-fluid" alt="..." />
-                                    <div class="card-body">
+                                    <div class="card-body" >
                                     <h5>{val.make.substring(0, 15)} <span class="badge bg-dark">{val.model}</span></h5>
                                     
                                     <p>{val.description}<br></br>${val.price}</p>
