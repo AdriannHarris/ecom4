@@ -25,7 +25,9 @@ export default function Productfilter(){
             
             <div className="Row">
                 <div>
+                <div class="card-group">
                     {items.map((val)=> (
+                    
                         <div className='col-md-3'>
                             <div class="card" >
                                 <img src={val.image} class="card-img-top img-fluid" alt="..." />
@@ -38,6 +40,7 @@ export default function Productfilter(){
                             </div>
                         </div>
                     ))}
+                </div>
                 </div>
             </div>
         </div>
